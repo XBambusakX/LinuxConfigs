@@ -1,5 +1,3 @@
-Markdown
-
 # Configuration Setup Instructions
 
 **Important:** Before proceeding, ensure you back up your existing configuration files. This will prevent data loss in case of unexpected issues.
