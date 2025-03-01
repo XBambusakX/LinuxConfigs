@@ -1,4 +1,4 @@
-##be sure to backup your config files, before copying the new ones
+## be sure to backup your config files, before copying the new ones
 
 for automatic instalation, use the script included in the repo
 ```bash config-script.sh```
@@ -10,3 +10,6 @@ for copying alacritty config:
 
 for copying wofi config:
 ```bash cp -r ./wofi ~/.config/```
+
+for copying nvim config:
+```bash cp -r ./nvim ~/.config/```

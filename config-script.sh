@@ -7,3 +7,7 @@ echo "Alacritty configuration installed."
 #copies the wofi configuration files to the ~/.config directory
 cp ./wofi ~/.config/wofi -r
 echo "Wofi configuration installed."
+
+#copies nvim configuration files to the ~/.config directory
+cp ./nvim ~/.config/nvim -directory
+echo "Neovim configuration installed."
