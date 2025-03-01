@@ -24,25 +24,33 @@ Alacritty Configuration
 
 To copy the Alacritty configuration:
 
-```bash cp -r ./alacritty ~/.config/```
+```bash
+cp -r ./alacritty ~/.config/
+```
 
 Wofi Configuration
 
 To copy the Wofi configuration:
 
-```bash cp -r ./wofi ~/.config/```
+```bash
+cp -r ./wofi ~/.config/
+```
 
 Neovim Configuration
 
 To copy the Neovim configuration:
 
-```bash cp -r ./nvim ~/.config/```
+```bash
+cp -r ./nvim ~/.config/
+```
 
 Hyprland Configuration
 
 To copy the Hyprland configuration:
 
-```bash   cp -r ./hypr ~/.config/   ```
+```bash
+cp -r ./hypr ~/.config/
+```
 
 Alternatively, you can copy specific parts of the Hyprland configuration as needed. The repository includes:
 
@@ -56,12 +64,15 @@ To install the Hyprcursor theme:
 
 Copy the theme directory to /usr/share/icons/:
 
-```bash sudo cp -r ./hypr/GoogleDot-Black/ /usr/share/icons/```
+```bash
+sudo cp -r ./hypr/GoogleDot-Black/ /usr/share/icons/
+```
 
 Set the cursor theme using hyprctl:
-Bash
 
-```bash hyprctl setcursor GoogleDot-Black 24```
+```bash
+hyprctl setcursor GoogleDot-Black 24
+```
 
 The 24 represents the cursor size (an integer value). Adjust it to your preferred size.
 Please note, that the above command requires sudo permissions for the copy command.
