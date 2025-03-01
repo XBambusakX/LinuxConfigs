@@ -1,15 +1,72 @@
-## be sure to backup your config files, before copying the new ones
+# Configuration Setup Instructions
 
-for automatic instalation, use the script included in the repo
-```bash config-script.sh```
+**Important:** Before proceeding, ensure you back up your existing configuration files. This will prevent data loss in case of unexpected issues.
 
-for manual or partial instalation, use the commands below
+## Automatic Installation
 
-for copying alacritty config:
-```bash cp -r ./alacritty ~/.config/```
+For a streamlined installation, use the provided script:
 
-for copying wofi config:
-```bash cp -r ./wofi ~/.config/```
+1. **Make the script executable (if it isn't already):**
 
-for copying nvim config:
-```bash cp -r ./nvim ~/.config/```
+   ```bash
+   chmod +x ./config-script.sh
+
+    Run the script:
+    Bash
+
+    ./config-script.sh
+
+This script will automatically copy all configurations to their respective locations.
+Manual or Partial Installation
+
+If you prefer manual or partial installation, follow the instructions below:
+Alacritty Configuration
+
+To copy the Alacritty configuration:
+Bash
+
+cp -r ./alacritty ~/.config/
+
+Wofi Configuration
+
+To copy the Wofi configuration:
+Bash
+
+cp -r ./wofi ~/.config/
+
+Neovim Configuration
+
+To copy the Neovim configuration:
+Bash
+
+cp -r ./nvim ~/.config/
+
+Hyprland Configuration
+
+To copy the Hyprland configuration:
+Bash
+
+cp -r ./hypr ~/.config/
+
+Alternatively, you can copy specific parts of the Hyprland configuration as needed. The repository includes:
+
+    Hyprland configuration files
+    Hyprpaper configuration file
+    Hyprcursor theme
+
+Hyprcursor Theme Installation
+
+To install the Hyprcursor theme:
+
+    Copy the theme directory to /usr/share/icons/:
+    Bash
+
+sudo cp -r ./hypr/GoogleDot-Black/ /usr/share/icons/
+
+Set the cursor theme using hyprctl:
+Bash
+
+hyprctl setcursor GoogleDot-Black 24
+
+    The 24 represents the cursor size (an integer value). Adjust it to your preferred size.
+    Please note, that the above command requires sudo permissions for the copy command.
