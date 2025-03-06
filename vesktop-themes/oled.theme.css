@@ -1,0 +1,24 @@
+/**
+ * @name         OLED Theme
+ * @description  Theme for OLED screens like AMOLED theme for phones. Nothing else.
+ * @author       dimden
+ * @version      1.9
+ * @source       https://github.com/dimdenGD/discord-oled-theme/blob/main/oled.theme.css
+ * @invite       5jm5P3SJF3
+ * @authorId     258557706892214282
+ * @website      https://dimden.dev
+ * @donate       https://dimden.dev/donate
+ */
+
+@import url(https://dimdengd.github.io/discord-oled-theme/code.css);
+
+:is(:root, .theme-dark) {
+	--background-primary: black !important;
+	--background-secondary: black !important;
+	--background-tertiary: black !important;
+	--background-secondary-alt: black !important;
+	--background-accent: black !important;
+	--button-secondary-background: hsl(0 0% 10%) !important;
+	--activity-card-background: black;
+	--home-background: black !important;
+}
